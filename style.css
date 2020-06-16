@@ -1,0 +1,99 @@
+body {
+    margin:0px;
+    position: relative;
+    min-width: 600px;
+    background-color: #ddd;
+    min-height: 100vh;
+}
+
+#content {
+    padding: 0px 4px;
+    margin: 0px 4px;
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(1, 46, 86);
+    color: #fff;
+}
+
+.header {
+    overflow: hidden;
+    max-width: 800px;
+    display: inline-block;
+}
+
+.header>h1 {
+    margin-bottom: 0px;
+    margin-top: 4px;
+}
+
+.header>h2 {
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
+.navBar {
+    padding: 8px;
+}
+
+.navBarItem {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #000;
+    color: inherit;
+}
+
+.navBarItem:hover{
+    background-color:#262626;
+}
+
+.content {
+    max-width: 2000px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+}
+
+h1, h2, h3, p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    border:none;
+    padding:8px 16px;
+    vertical-align:middle;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+    border-radius:8px;
+    color:#fff;
+    background-color:#000;
+    margin:4px 2px;
+}
+
+.button:hover {
+    background-color:#444;
+}
+
+.section {
+    background-color: #fff;
+    width: calc(100% - 16px);
+    margin: 8px 0px 8px 0px;
+    padding: 8px;
+}

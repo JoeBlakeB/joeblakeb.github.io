@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "XBANDRough";
+    src: url("XBANDRough/XBANDRough.eot");
+    src: url("XBANDRough/XBANDRough.eot?#iefix") format("embedded-opentype"),
+        url("XBANDRough/XBANDRough.woff2") format("woff2"),
+        url("XBANDRough/XBANDRough.woff") format("woff"),
+        url("XBANDRough/XBANDRough.ttf") format("truetype"),
+        url("XBANDRough/XBANDRough.svg#XBANDRough") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,15 +1,11 @@
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+
 body {
     margin:0px;
     position: relative;
     min-width: 600px;
     background-color: #ddd;
     min-height: 100vh;
-}
-
-#content {
-    padding: 0px 4px;
-    margin: 0px 4px;
-    text-align: center;
 }
 
 body {
@@ -53,21 +49,15 @@ header {
     background-color:#262626;
 }
 
-.content {
-    max-width: 2000px;
-    width: 100%;
-    text-align: left;
-    position: relative;
-    display: inline-block;
-}
-
-h1, h2, h3, p{
+.content *:not(p){
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-p {
+.content p {
     font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 a {
@@ -91,9 +81,18 @@ a {
     background-color:#444;
 }
 
-.section {
+.content {
     background-color: #fff;
     width: calc(100% - 16px);
     margin: 8px 0px 8px 0px;
     padding: 8px;
+}
+
+.content>div {
+    background-color: white;
+}
+
+#page {
+    padding: 0px 8px;
+    margin: 0px 4px;
 }
